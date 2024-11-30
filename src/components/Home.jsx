@@ -1,5 +1,6 @@
 import Allocate from "./Allocate.jsx"
 import Carousel from "./Carousel.jsx"
+import Embrace from "./Embrace.jsx"
 import Hero from "./Hero"
 import Partners from "./Partner"
 import Prefered from "./Prefered"
@@ -15,6 +16,7 @@ const Home = () => {
         <Prefered/>
         <Carousel/>
         <Allocate/>
+        <Embrace/>
         
     </div>
   )
