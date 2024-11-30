@@ -1,5 +1,6 @@
 import Hero from "./Hero"
 import Partners from "./Partner"
+import Services from "./Services"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="w-full max-w-[1440px] mx-auto bg-jungleGreen">
         <Hero/>
         <Partners/>
+        <Services/>
     </div>
   )
 }
