@@ -1,3 +1,4 @@
+import Allocate from "./Allocate.jsx"
 import Carousel from "./Carousel.jsx"
 import Hero from "./Hero"
 import Partners from "./Partner"
@@ -13,6 +14,7 @@ const Home = () => {
         <Services/>
         <Prefered/>
         <Carousel/>
+        <Allocate/>
         
     </div>
   )
