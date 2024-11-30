@@ -12,12 +12,12 @@ export default {
       colors: {
         primary: "#0FF1F6",
         secondary: "#96ACAF",
-        jungleGreen: "#002228",
+        Green: "#002228",
         cyan: "#14BCB2",
       },
       backgroundColor: {
         primary: "#0FF1F6",
-        jungleGreen: "#002228",
+        Green: "#002228",
       },
       fontFamily: {
         Montserrat: "Montserrat",

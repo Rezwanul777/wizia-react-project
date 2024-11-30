@@ -7,7 +7,7 @@ const SharedButton = ({ children, className, variant }) => {
   return (
     <Button
       className={cn(
-        "text-jungleGreen selection:md:py-3 py-2 md:px-[16px] px-[12px] bg-primary font-workSans font-semibold leading-4 text-base",
+        "text-Green selection:md:py-3 py-2 md:px-[16px] px-[12px] bg-primary font-workSans font-semibold leading-4 text-base",
         className,
         variant
       )}

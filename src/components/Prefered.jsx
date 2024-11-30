@@ -39,7 +39,7 @@ const Prefered = () => {
             {list.map((item, index) => (
               <div key={index} className="flex items-center gap-1">
                 <span className="text-cyan">{item.icon}</span>
-                <p className="text-cyan font-Montserrat font-[500] sm:text-[18px] text-base sm:leading-[26px] leading-5 -tracking-[1%]">
+                <p className="text-cyan font-Montserrat font-[500] sm:text-[18px] text-base sm:leading-[26px] leading-5 ">
                   {item.title}
                 </p>
               </div>

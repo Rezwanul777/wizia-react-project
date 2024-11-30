@@ -31,7 +31,7 @@ import SharedButton from "../libs/SharedButton";
         onMenuOpenChange={setIsMenuOpen}
         isBordered
         shouldHideOnScroll
-        className="bg-jungleGreen border-[#183A40]"
+        className="bg-Green border-[#183A40]"
         maxWidth="xl"
       >
         <NavbarBrand>
@@ -69,7 +69,7 @@ import SharedButton from "../libs/SharedButton";
         </NavbarContent>
   
         {/*Navbar menu */}
-        <NavbarMenu className="bg-jungleGreen">
+        <NavbarMenu className="bg-Green">
           {navLink.map(({ href, label }, i) => (
             <NavbarMenuItem key={i} href={href}>
               <NavLink to={href}>

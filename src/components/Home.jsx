@@ -10,7 +10,7 @@ import Services from "./Services"
 
 const Home = () => {
   return (
-    <div className="w-full max-w-[1440px] mx-auto bg-jungleGreen">
+    <div className="w-full max-w-[1440px] mx-auto bg-Green">
         <Hero/>
         <Partners/>
         <Services/>
