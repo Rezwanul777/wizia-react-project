@@ -18,10 +18,10 @@ const Allocate = () => {
       <section className="bg-[url(/effort-bg.png)] bg-no-repeat bg-cover sm:mx-10 mx-6">
         <div className="sm:pt-[65px] pt-14 sm:pb-[90px] pb-20 sm:px-8 px-5">
           <div className="sm:space-y-2 space-y-4">
-            <h3 className="font-Montserrat font-semibold text-white text-[26px] sm:text-[32px] sm:leading-10 leading-[34px]  max-w-lg">
+            <h3 className="font-Montserrat font-semibold text-white text-[26px] sm:text-[30px] sm:leading-10 leading-[34px]  max-w-lg">
               Allocate effort where your reps make an inpact.
             </h3>
-            <h5 className="text-primary font-[500] italic font-Montserrat text-2xl sm:text-[32px] sm:leading-10 leading-7 ">
+            <h5 className="text-primary font-[500] italic font-Montserrat text-2xl sm:text-[32px] sm:leading-10 leading-6 ">
               Let us handle the rest.
             </h5>
             <p className="sm:text-xl text-base font-workSans font-[300] text-secondary sm:leading-[26px] leading-5 max-w-xl">
