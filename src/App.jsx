@@ -1,15 +1,27 @@
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+
+import Home from "./components/Home";
+
+
+
 import './App.css'
+import NavbarArea from "./shared/NavbarArea";
 
 function App() {
   
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <BrowserRouter>
+      <NavbarArea />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        
+      </Routes>
+    </BrowserRouter>
+  </>
   )
 }
 
