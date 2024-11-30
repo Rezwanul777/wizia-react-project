@@ -1,5 +1,6 @@
 import Hero from "./Hero"
 import Partners from "./Partner"
+import Prefered from "./Prefered"
 import Services from "./Services"
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero/>
         <Partners/>
         <Services/>
+        <Prefered/>
     </div>
   )
 }
